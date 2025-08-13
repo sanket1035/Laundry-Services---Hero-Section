@@ -1,0 +1,142 @@
+/* Reset default margins & paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Fade-in Animation */
+@keyframes fadeInNav {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    animation: fadeInNav 0.8s ease-in-out;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+/* Hover underline animation for nav links */
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0%;
+    height: 2px;
+    background-color: #1a73e8;
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #1a73e8;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+/* Username Button */
+.username-btn {
+    background-color: #e6f4ff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    color: #1a73e8;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.username-btn:hover {
+    background-color: #1a73e8;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(26, 115, 232, 0.4);
+}
+
+/* Hero Section */
+.hero {
+    height: 90vh; /* Full screen look */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.2;
+}
+
+.hero-text span {
+    color: #1a73e8;
+}
+
+.hero-text p {
+    margin: 15px 0;
+    color: gray;
+    line-height: 1.5;
+    max-width: 450px;
+}
+
+.cta-btn {
+    background-color: #1a73e8;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #155ab6;
+    transform: scale(1.05);
+}
+
+.hero-img img {
+    width: 400px;
+    height: auto;
+}
