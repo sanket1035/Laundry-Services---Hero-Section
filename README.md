@@ -56,7 +56,7 @@ The design focuses on:
 
 ## 🌐 Deployment
 This project is deployed on **Netlify**.  
-🔗 **Live Demo:** [Click Here](https://your-netlify-link.netlify.app)
+🔗 **Live Demo:** [Click Here](https://laundrysite1035.netlify.app/)
 
 ---
 
