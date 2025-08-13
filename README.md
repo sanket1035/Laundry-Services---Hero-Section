@@ -78,5 +78,5 @@ Feel free to use and modify for learning.
 
 ## 👨‍💻 Author
 **Your Name**  
-- GitHub: [Your GitHub](https://github.com/yourusername)  
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourusername)  
+- GitHub: [Your GitHub](https://github.com/sanket1035)  
+- LinkedIn: [Your LinkedIn](https://linkedin.com/in/sanketchaudhari1035/)  
