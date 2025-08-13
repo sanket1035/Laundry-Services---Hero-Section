@@ -29,7 +29,6 @@ The design focuses on:
 
 ## 🖼 Screenshot
 ![Laundry Hero Section](screenshot.png)  
-*(Replace `screenshot.png` with your actual screenshot if needed)*
 
 ---
 
@@ -67,12 +66,6 @@ This project is deployed on **Netlify**.
 - **Flexbox**
 - **Viewport Units (vh, vw)**
 - **CSS Animations**
-
----
-
-## 📜 License
-This project is licensed for educational purposes only.  
-Feel free to use and modify for learning.
 
 ---
 
